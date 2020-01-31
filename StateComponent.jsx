@@ -79,7 +79,7 @@ export default class File extends React.Component {
 
     Swal.fire({
       title: "Are you sure?",
-      text: "You won't be able to revert this!",
+      text: "You won't be able to undo this!",
       icon: "warning",
       showCancelButton: true,
       confirmButtonText: "Yes, delete it!",

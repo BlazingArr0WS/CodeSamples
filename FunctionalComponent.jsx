@@ -49,7 +49,7 @@ const FunctionalComponent = ({ searchData }) => {
         <InputGroup className="col-xs-12 col-md-6 col-lg-4 m-auto">
           <Input
             className="border-0"
-            placeholder="State, City, ZIP, Address, or School"
+            placeholder="type anything here that you'd like"
             name="FunctionalComponent"
             onChange={searchData.onSearchChange}
           />
